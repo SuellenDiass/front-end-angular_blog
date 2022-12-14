@@ -1,0 +1,10 @@
+
+
+.container__articles{
+    margin-top: 30px;
+/**Definir as posições dos elementos dentro do container*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+

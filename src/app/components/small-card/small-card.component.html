@@ -1,0 +1,26 @@
+<!-- Referente aos cards menores, foi chamado no arquivo home.component.html-->
+<!--Tratar as estilizações no small-card.component.css -->
+<!-- Tag hr insere linhas-->
+<!--Onde for clicavel href substituir por routerlink-->
+
+<div class="container__small-card">
+    <div class="container__small-card-content">
+        <div class="small-card__photo">
+            <img src="{{photoCover}}" alt="" srcset="">
+        </div>
+        <div class="small-card__title">
+            <h1><a [routerLink]="['content',id]">{{cardTitle}}</a></h1>
+        </div>
+        <div class="small-card__video">
+            <video src="{{video}}"></video>
+        </div>
+
+    </div>
+    <div class="container__small-card__separator">
+        <hr>
+    </div>
+
+</div>
+
+
+

@@ -1,0 +1,45 @@
+<!---Desgrudando os articles do titulo, ir em home.component.css-->
+<!-- Pode inserir mais seções na pagina se nescessário-->
+<!-- atraves do @input() criado no arquivo big-car-component.ts a propriedade pode ser chamada nessa pagina-->
+<!--A partir dessa propriedade importada podem ser criadas novos big card-->
+<!--Através dos id torna os componentes clicaveis que dão acesso uma nova pagina-->
+
+
+
+
+<app-menu-title></app-menu-title>
+<hr>
+<div class="container__articles">
+  <div class="articles__main">
+    <app-big-card id="1" photoCover="https://www.elfinanciero.com.mx/resizer/NQntkhIeUbkzsA1rzFU8eqJo2Ms=/1200x630/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/JNNP6CYUZBCJVDSWG6MRNESKEM.jpeg"
+    cardTitle=" Você está procurando algo para assistir na Netflix? " cardDescription="Não procure mais. Reuni  em uma lista com as três melhores séries da Netflix para assistir."></app-big-card>
+
+
+  </div>
+  <div class="articles__others">
+    <app-small-card id="2" cardTitle="Wandinha é só desgosto"
+    photoCover="https://www.ofuxico.com.br/wp-content/uploads/2022/11/wandinha-jenny-ortega-seria-em-poster-serie-netflix-1024x683.jpg"
+    ></app-small-card>
+
+    <app-small-card id="3" cardTitle="O Mistério do Voo 828"
+    photoCover="https://sobreseries.com.br/wp-content/uploads/2022/06/manifest_netflix.png" ></app-small-card>
+
+    <app-small-card id="4" cardTitle="Inventando Anna"
+    photoCover="https://occ-0-38-56.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaJ-TTnmsEy5ynaLPbbvm_a5O8cLXFjs-b-WeRS2_ZpPRf9-wD5SOtJ36R8dHvPSHIcUkaXSxUgIFWNvHMfLi_Jn1oFidNkXDrNTagDlbbX5FONrwrfTMXIOL6Qwa5RO2HSi4A.jpg?r=44e" video=""></app-small-card>
+
+  </div>
+</div>
+<!-- para inserir uma nova sessão
+  <h1>
+    <hr>
+<div class="container__articles">
+  <div class="articles__main">
+    <app-big-card></app-big-card>
+  </div>
+  <div class="articles__others">
+    <app-small-card></app-small-card>
+    <app-small-card></app-small-card>
+    <app-small-card></app-small-card>
+
+  </div>
+</div>-->

@@ -1,0 +1,40 @@
+/**Estilizando a página do content.component.html****/
+/*Alinhando itens dentro do container__content**/
+/**vh permite ocupar 100% mesmo ela reduzindo de tamanho*/
+.container__content{
+   /** Border: 1px solid white;**/
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.content__cover > img{
+    border: 5px solid rgb(144,144,144);
+    border-radius: 5px;
+    width: 400px;
+    min-width: 400px;
+    height: 250px;
+}
+/**Desgrudando o um texto do outro*/
+.content__description {
+    margin-top: 15px;
+}
+/**Desgrudando o um texto das margens*/
+.content__description > p{
+    margin-top: 20px;
+    margin-inline: 20px;
+    color: rgb(198, 197, 197);
+}
+.content__video{
+    width: 750px;
+    margin:0 auto;
+    display: block;
+
+
+}
+

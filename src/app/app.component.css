@@ -1,0 +1,8 @@
+/**header retirado home.component.css*/
+
+/* Espaçamento dos elementos menu*/
+header{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
